@@ -11,18 +11,23 @@ def load_all_data(file_name):
     """
     if not os.path.exists(file_name):
         st.error(f"File not found: {file_name}. Please make sure 'data.json' exists.")
-        return None
+        return []
 
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            return data.get('flashcards', [])
+            # Check if the loaded data is a list as expected
+            if isinstance(data, list):
+                return data
+            else:
+                st.error("JSON file is not in the expected list format.")
+                return []
     except json.JSONDecodeError:
         st.error(f"Error decoding JSON from {file_name}. The file may be empty or malformed.")
-        return None
+        return []
     except Exception as e:
         st.error(f"An unexpected error occurred: {e}")
-        return None
+        return []
 
 st.set_page_config(page_title="Flashcard App", layout="centered")
 
@@ -51,7 +56,7 @@ if all_data:
             st.session_state.card_index = 0
             st.session_state.card_type = card_type
             st.session_state.show_translation = False
-
+        
         # Get the current flashcard from the filtered data
         current_card = filtered_data[st.session_state.card_index]
 
