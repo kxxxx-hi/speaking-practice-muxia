@@ -1,0 +1,686 @@
+[
+{
+"category": "Object: Visuals",
+"chinese": "充满活力的",
+"english": "vibrant",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "惹人注目的",
+"english": "striking",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "对比",
+"english": "contrast",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "广袤",
+"english": "expanse",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "沼泽地",
+"english": "marshland",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "炽烈的",
+"english": "fiery",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "蜿蜒的",
+"english": "winding",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "栈道",
+"english": "boardwalk",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Nature",
+"chinese": "脆弱的",
+"english": "delicate",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Nature",
+"chinese": "生态系统",
+"english": "ecosystem",
+"type": "vocabulary"
+},
+{
+"category": "Photography & Gear",
+"chinese": "数码相机",
+"english": "digital camera",
+"type": "vocabulary"
+},
+{
+"category": "Photography & Gear",
+"chinese": "小巧的",
+"english": "compact",
+"type": "vocabulary"
+},
+{
+"category": "Photography & Gear",
+"chinese": "广角镜头",
+"english": "wide-angle lens",
+"type": "vocabulary"
+},
+{
+"category": "Photography & Gear",
+"chinese": "光照条件",
+"english": "lighting conditions",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "使永存；铭记",
+"english": "immortalize",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "令人叹为观止的",
+"english": "breathtaking",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "有形的",
+"english": "tangible",
+"type": "vocabulary"
+},
+{
+"category": "Object: Visuals",
+"chinese": "纪念品",
+"english": "memento",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "隐藏的宝地",
+"english": "hidden gem",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "情景喜剧",
+"english": "sitcom",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "机智对话",
+"english": "witty banter",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "情谊；友情",
+"english": "camaraderie",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "怀旧",
+"english": "nostalgia",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "吸引；迷住",
+"english": "captivate",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "按时间记录",
+"english": "chronicle",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "放松",
+"english": "unwind",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "引起共鸣",
+"english": "resonate with",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "易引起共鸣的",
+"english": "relatable",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "惹人喜爱的",
+"english": "endearing",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "轻松的；不严肃的",
+"english": "lighthearted",
+"type": "vocabulary"
+},
+{
+"category": "Media: Entertainment",
+"chinese": "极其滑稽的",
+"english": "hilarious",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "转向；操控",
+"english": "steering",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "平衡",
+"english": "balance",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "耐力",
+"english": "endurance",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "里程碑",
+"english": "milestone",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "不稳的",
+"english": "unsteady",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "令人兴奋的",
+"english": "exhilarating",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "有收获的；值得的",
+"english": "rewarding",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "令人疲劳的",
+"english": "tiring",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "获得；习得",
+"english": "acquire",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "掌握",
+"english": "master",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "坚持不懈",
+"english": "persevere",
+"type": "vocabulary"
+},
+{
+"category": "Object: Skills & Learning",
+"chinese": "克服",
+"english": "overcome",
+"type": "vocabulary"
+},
+{
+"category": "Emotions & Mindset",
+"chinese": "不安；忐忑",
+"english": "apprehension",
+"type": "vocabulary"
+},
+{
+"category": "Emotions & Mindset",
+"chinese": "成就感",
+"english": "accomplishment",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "敏捷",
+"english": "agility",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "手眼协调",
+"english": "hand-eye coordination",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "团队合作",
+"english": "teamwork",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "沟通",
+"english": "communication",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "令人振奋的",
+"english": "invigorating",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "热带气候",
+"english": "tropical climate",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "背景（衬托）",
+"english": "backdrop",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "建立联系；联结",
+"english": "bond",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "毅力；不屈不挠",
+"english": "perseverance",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "精力充沛的",
+"english": "energetic",
+"type": "vocabulary"
+},
+{
+"category": "Sports: Play & Fitness",
+"chinese": "活跃的；生气勃勃的",
+"english": "lively",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "内向者",
+"english": "introvert",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "善于交际的人",
+"english": "people person",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "悠闲的；随和的",
+"english": "laid-back",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "非传统的；另类的",
+"english": "offbeat",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "古灵精怪的；离奇的",
+"english": "quirky",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "机智的",
+"english": "witty",
+"type": "vocabulary"
+},
+{
+"category": "People: Personality & Social",
+"chinese": "有感染力的",
+"english": "contagious",
+"type": "vocabulary"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "有韧性的；有弹性的",
+"english": "resilient",
+"type": "vocabulary"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "迅速恢复",
+"english": "bounce back",
+"type": "vocabulary"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "使不安；扰乱",
+"english": "rattle",
+"type": "vocabulary"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "心理坚韧",
+"english": "mental fortitude",
+"type": "vocabulary"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "时髦的",
+"english": "fashionable",
+"type": "vocabulary"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "模仿",
+"english": "imitate",
+"type": "vocabulary"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "能干的；有能力的",
+"english": "capable",
+"type": "vocabulary"
+},
+{
+"category": "Society & Culture",
+"chinese": "消费主义",
+"english": "consumerism",
+"type": "vocabulary"
+},
+{
+"category": "People: Personal Boundaries",
+"chinese": "个人空间",
+"english": "personal space",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "宁静的",
+"english": "peaceful",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "恬静的；安宁的",
+"english": "tranquil",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "首选的；常用的",
+"english": "go-to",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "散步；漫步",
+"english": "stroll",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "使人平静的",
+"english": "calming",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "回归自然",
+"english": "get back to nature",
+"type": "vocabulary"
+},
+{
+"category": "Places: Nature & Calm",
+"chinese": "喧嚣；熙熙攘攘",
+"english": "hustle and bustle",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Nature",
+"chinese": "噪音污染",
+"english": "noise pollution",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Nature",
+"chinese": "（鸟）啁啾",
+"english": "chirp",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Nature",
+"chinese": "（蛙）呱呱叫",
+"english": "croak",
+"type": "vocabulary"
+},
+{
+"category": "Health & Well-being",
+"chinese": "有疗效的；治愈的",
+"english": "therapeutic",
+"type": "vocabulary"
+},
+{
+"category": "Communication",
+"chinese": "推心置腹的谈话",
+"english": "heart-to-heart",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "广场",
+"english": "square",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "有益的",
+"english": "beneficial",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "关键的；至关重要的",
+"english": "crucial",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "必不可少的",
+"english": "essential",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "提升；增强",
+"english": "enhance",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "从事；参与",
+"english": "engage in",
+"type": "vocabulary"
+},
+{
+"category": "Places: Activity & Health",
+"chinese": "户外",
+"english": "outdoors",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "避风港；庇护所",
+"english": "sanctuary",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "恢复精力；充电",
+"english": "recharge",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "温馨的；舒适的",
+"english": "cozy",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "小憩；打盹",
+"english": "nap",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "高效的；多产的",
+"english": "productive",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "熟悉的",
+"english": "familiar",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "装饰；布置",
+"english": "decorate",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "设备；配置",
+"english": "setup",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "安全感",
+"english": "security",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "蜷缩",
+"english": "curl up",
+"type": "vocabulary"
+},
+{
+"category": "Home: Private Space",
+"chinese": "迎合；满足",
+"english": "cater to",
+"type": "vocabulary"
+},
+{
+"category": "Leisure",
+"chinese": "休闲；空闲",
+"english": "leisure",
+"type": "vocabulary"
+},
+{
+"category": "Fame & Creativity",
+"chinese": "榜样",
+"english": "role model",
+"type": "vocabulary"
+},
+{
+"category": "Fame & Creativity",
+"chinese": "歌词",
+"english": "lyrics",
+"type": "vocabulary"
+},
+{
+"category": "Fame & Creativity",
+"chinese": "创意决策",
+"english": "creative decisions",
+"type": "vocabulary"
+},
+{
+"category": "Fame & Creativity",
+"chinese": "鼓舞人心的",
+"english": "inspiring",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Action",
+"chinese": "志愿者",
+"english": "volunteer",
+"type": "vocabulary"
+},
+{
+"category": "Environment & Action",
+"chinese": "垃圾",
+"english": "garbage",
+"type": "vocabulary"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "对手",
+"english": "opponent",
+"type": "vocabulary"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "奖杯",
+"english": "trophy",
+"type": "vocabulary"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "奖金",
+"english": "prize money",
+"type": "vocabulary"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "锦标赛",
+"english": "tournament",
+"type": "vocabulary"
+},
+{
+"category": "Emotions & Mindset",
+"chinese": "自信；信心",
+"english": "confidence",
+"type": "vocabulary"
+}
+]
