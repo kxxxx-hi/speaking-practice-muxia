@@ -45,8 +45,13 @@ all_data = load_all_data("data.json")
 
 # Filter the data based on the selected card type
 if all_data:
-    # Convert the selected card_type to lowercase for comparison with the data
-    filtered_data = [card for card in all_data if card.get('type') == card_type.lower()]
+    # Determine the expected 'type' value to match in the JSON data.
+    # We account for the singular vs. plural inconsistency between the radio button and data.
+    expected_type = card_type.lower()
+    if expected_type == "sentences":
+        expected_type = "sentence"
+        
+    filtered_data = [card for card in all_data if card.get('type') == expected_type]
 
     if filtered_data:
         st.success(f"Successfully loaded {len(filtered_data)} {card_type} flashcards!")
