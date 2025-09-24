@@ -65,32 +65,34 @@ if all_data:
         # Get the current flashcard from the filtered data
         current_card = filtered_data[st.session_state.card_index]
 
-        # Display the English side of the flashcard
-        st.header(f"Card {st.session_state.card_index + 1}/{len(filtered_data)}")
-        st.markdown(f"**English:**")
-        st.info(current_card['english'])
+        # Use columns to place the buttons side-by-side on top of the card
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("Next Card"):
+                st.session_state.card_index = (st.session_state.card_index + 1) % len(filtered_data)
+                st.session_state.show_translation = False
+                st.rerun()
 
-        # Button to toggle the translation
-        if st.button("Show/Hide Translation"):
+        with col2:
+            if st.button("Shuffle Cards"):
+                random.shuffle(filtered_data)
+                st.session_state.card_index = 0
+                st.session_state.show_translation = False
+                st.rerun()
+
+        # Display the Chinese side of the flashcard first
+        st.header(f"Card {st.session_state.card_index + 1}/{len(filtered_data)}")
+        st.markdown(f"**Chinese Translation:**")
+        st.info(current_card['chinese'])
+
+        # Button to toggle the English translation
+        if st.button("Show/Hide English"):
             st.session_state.show_translation = not st.session_state.show_translation
 
-        # Display the Chinese translation if the toggle is on
+        # Display the English side if the toggle is on
         if st.session_state.show_translation:
-            st.markdown(f"**Chinese Translation:**")
-            st.success(current_card['chinese'])
-
-        # Button to move to the next card
-        if st.button("Next Card"):
-            st.session_state.card_index = (st.session_state.card_index + 1) % len(filtered_data)
-            st.session_state.show_translation = False  # Hide translation for the new card
-            st.rerun()
-
-        # Button to shuffle the cards
-        if st.button("Shuffle Cards"):
-            random.shuffle(filtered_data)
-            st.session_state.card_index = 0
-            st.session_state.show_translation = False
-            st.rerun()
+            st.markdown(f"**English:**")
+            st.success(current_card['english'])
     else:
         st.info(f"No {card_type} flashcards found in the data.")
 else:
