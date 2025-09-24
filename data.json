@@ -862,5 +862,185 @@
 "chinese": "这里既满足我高效工作的需要，也满足我放松的需要。",
 "english": "It’s a space that caters to both my productive and relaxing needs.",
 "type": "sentence"
+},
+{
+"category": "People: Friendship",
+"chinese": "Dave 是我超级要好的朋友。",
+"english": "Dave's a super close friend of mine.",
+"type": "sentence"
+},
+{
+"category": "People: Friendship",
+"chinese": "我们在小学第一次见面，当时是同桌。",
+"english": "We first met in primary school; we were deskmates back then.",
+"type": "sentence"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "我从没见过他穿同一套衣服两次。",
+"english": "I've never seen him wearing the same clothes twice.",
+"type": "sentence"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "他喜欢《黑豹》，还会模仿片中角色的服装。",
+"english": "He loves Black Panther and imitates the costumes of the characters.",
+"type": "sentence"
+},
+{
+"category": "People: Appearance & Style",
+"chinese": "他喜欢全黑穿搭，看起来很干练。",
+"english": "He likes to wear all black and looks very capable.",
+"type": "sentence"
+},
+{
+"category": "People: Social",
+"chinese": "他总去参加派对，还介绍我认识他的朋友。",
+"english": "He's always going to parties and introduces me to his friends.",
+"type": "sentence"
+},
+{
+"category": "People: Friendship",
+"chinese": "通过认识他的朋友，我也结交了不少好哥们。",
+"english": "I've made some really good buddies from meeting his friends.",
+"type": "sentence"
+},
+{
+"category": "People: Social",
+"chinese": "和他一起玩你会一直笑个不停。",
+"english": "When you hang out with him you find yourself laughing constantly.",
+"type": "sentence"
+},
+{
+"category": "People: Friendship",
+"chinese": "和我的兄弟 Dave 一起玩总是很开心。",
+"english": "It's always a great time chilling out with my buddy Dave.",
+"type": "sentence"
+},
+{
+"category": "People: Personal Boundaries",
+"chinese": "他有时会打扰内向者的个人空间。",
+"english": "He sometimes disturbs an introvert's personal space.",
+"type": "sentence"
+},
+{
+"category": "People: Neighbor",
+"chinese": "他就住在隔壁。",
+"english": "He lives just next door.",
+"type": "sentence"
+},
+{
+"category": "People: Life Experience",
+"chinese": "他也许已经八十多岁了，但一生多姿多彩。",
+"english": "He is perhaps in his eighties now, but he has led a colorful and rich life.",
+"type": "sentence"
+},
+{
+"category": "People: Reflection",
+"chinese": "我觉得他很有意思。",
+"english": "I find him fascinating.",
+"type": "sentence"
+},
+{
+"category": "People: Education",
+"chinese": "他是位退休教师，但依然对生活充满热情。",
+"english": "He is a retired teacher, but he is full of passion for life.",
+"type": "sentence"
+},
+{
+"category": "People: Neighbor",
+"chinese": "他下来帮我们种花，于是我们认识了。",
+"english": "He came downstairs to help us plant flowers, and we got to know each other.",
+"type": "sentence"
+},
+{
+"category": "People: Life Experience",
+"chinese": "他阅历丰富，经常给我讲有趣的故事。",
+"english": "He has a wealth of experience and often tells me interesting stories.",
+"type": "sentence"
+},
+{
+"category": "People: Humor",
+"chinese": "和他聊天时总能笑个不停。",
+"english": "When you chat with him you find yourself laughing constantly.",
+"type": "sentence"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "他在我们市的羽毛球比赛中拿了第一名。",
+"english": "He won first place in our city's badminton competition.",
+"type": "sentence"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "他的对手根本不是他的对手。",
+"english": "His opponents were no match for him.",
+"type": "sentence"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "他只输了一局，另外六局都赢了。",
+"english": "He only lost one game and won the other six.",
+"type": "sentence"
+},
+{
+"category": "Competition & Achievement",
+"chinese": "那天他捧着冠军奖杯和奖金回了家。",
+"english": "He went home with a first place trophy and some prize money.",
+"type": "sentence"
+},
+{
+"category": "Emotions & Mindset",
+"chinese": "输掉第一局后，他的自信心很低。",
+"english": "He was really low on confidence after losing the first game.",
+"type": "sentence"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "但他没有被这事击垮。",
+"english": "He didn't let it rattle him.",
+"type": "sentence"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "他对自己说“你能做到”，随后连赢六局。",
+"english": "He told himself "you can do this" and then won six straight games.",
+"type": "sentence"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "我明白了他是个有韧性的人。",
+"english": "I learned that he is a resilient person.",
+"type": "sentence"
+},
+{
+"category": "Character: Strength & Mindset",
+"chinese": "我想向他学习。",
+"english": "I want to learn from him.",
+"type": "sentence"
+},
+{
+"category": "Culture & Geography",
+"chinese": "他来自中国南方的浙江省。",
+"english": "He comes from Zhejiang Province, in the south of China.",
+"type": "sentence"
+},
+{
+"category": "Culture & Geography",
+"chinese": "从我家到浙江的距离大约相当于从英格兰到意大利。",
+"english": "The distance from my hometown to Zhejiang is about as far as from England to Italy.",
+"type": "sentence"
+},
+{
+"category": "Culture & Geography",
+"chinese": "他家乡和我家乡在文化上差异很大。",
+"english": "There is a significant cultural difference between his hometown and mine.",
+"type": "sentence"
+},
+{
+"category": "Places: Neighborhood",
+"chinese": "他家离我家很近，大约步行五分钟。",
+"english": "His home is very close to mine, about a five-minute walk away.",
+"type": "sentence"
 }
 ]
