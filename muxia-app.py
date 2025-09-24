@@ -65,7 +65,12 @@ if all_data:
         # Get the current flashcard from the filtered data
         current_card = filtered_data[st.session_state.card_index]
 
-        # Use columns to place the buttons side-by-side on top of the card
+        # Display the Chinese side of the flashcard first
+        st.header(f"Card {st.session_state.card_index + 1}/{len(filtered_data)}")
+        st.markdown(f"**Chinese Translation:**")
+        st.info(current_card['chinese'])
+
+        # Use columns to place the buttons side-by-side below the Chinese translation
         col1, col2 = st.columns(2)
         with col1:
             if st.button("Next Card"):
@@ -79,11 +84,6 @@ if all_data:
                 st.session_state.card_index = 0
                 st.session_state.show_translation = False
                 st.rerun()
-
-        # Display the Chinese side of the flashcard first
-        st.header(f"Card {st.session_state.card_index + 1}/{len(filtered_data)}")
-        st.markdown(f"**Chinese Translation:**")
-        st.info(current_card['chinese'])
 
         # Button to toggle the English translation
         if st.button("Show/Hide English"):
