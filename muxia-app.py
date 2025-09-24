@@ -1,93 +1,87 @@
 import streamlit as st
 import json
+import os
 import random
 
-# Use st.cache_data to load the JSON file only once
+# Use st.cache_data to cache the data loading function.
 @st.cache_data
-def load_data():
-    with open('data.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data['flashcards']
+def load_all_data(file_name):
+    """
+    Loads all flashcard data from a single JSON file.
+    """
+    if not os.path.exists(file_name):
+        st.error(f"File not found: {file_name}. Please make sure 'data.json' exists.")
+        return None
 
-data = load_data()
+    try:
+        with open(file_name, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('flashcards', [])
+    except json.JSONDecodeError:
+        st.error(f"Error decoding JSON from {file_name}. The file may be empty or malformed.")
+        return None
+    except Exception as e:
+        st.error(f"An unexpected error occurred: {e}")
+        return None
 
-# Initialize session state for the game
-if 'index' not in st.session_state:
-    st.session_state.index = 0
-    st.session_state.flipped = False
-    st.session_state.deck = random.sample(data, len(data))
-    st.session_state.game_mode = 'Vocabulary'
+st.set_page_config(page_title="Flashcard App", layout="centered")
 
-def next_card():
-    st.session_state.index = (st.session_state.index + 1) % len(st.session_state.deck)
-    st.session_state.flipped = False
-
-def flip_card():
-    st.session_state.flipped = True
-
-def switch_mode(mode):
-    st.session_state.game_mode = mode
-    st.session_state.index = 0
-    st.session_state.flipped = False
-    
-    if mode == 'Vocabulary':
-        st.session_state.deck = [item for item in data if item['type'] == 'vocabulary']
-    elif mode == 'Sentences':
-        st.session_state.deck = [item for item in data if item['type'] == 'sentence']
-    else: # All
-        st.session_state.deck = random.sample(data, len(data))
-    
-    if not st.session_state.deck:
-        st.error("No items found for this category.")
-        return
-        
-    random.shuffle(st.session_state.deck)
-
-
-# --- UI Layout ---
-
-st.title("慕夏 Part 2 Speaking Materials")
-st.markdown("Practice your IELTS speaking with these vocabulary and sentence flashcards.")
-
-# Game Mode Selection
-col1, col2, col3 = st.columns(3)
-with col1:
-    if st.button("All Cards"):
-        switch_mode('All')
-with col2:
-    if st.button("Vocabulary Flashcard"):
-        switch_mode('Vocabulary')
-with col3:
-    if st.button("Sentence Translation"):
-        switch_mode('Sentences')
-
+st.title("English-Chinese Flashcards")
 st.markdown("---")
 
-# Display Flashcard
-if st.session_state.deck:
-    card = st.session_state.deck[st.session_state.index]
+# Use a radio button to select between vocabulary and sentence flashcards.
+card_type = st.radio(
+    "Select Card Type:",
+    ("Vocabulary", "Sentences")
+)
 
-    with st.container(border=True):
-        st.markdown(f'<div style="text-align: right; color: gray;">**Category:** {card["category"]}</div>', unsafe_allow_html=True)
-        st.markdown("<br>", unsafe_allow_html=True)
+# Load all data from the single 'data.json' file
+all_data = load_all_data("data.json")
 
-        # Show Chinese on top
-        st.markdown(f"<h1 style='text-align: center;'>{card['chinese']}</h1>", unsafe_allow_html=True)
+# Filter the data based on the selected card type
+if all_data:
+    # Convert the selected card_type to lowercase for comparison with the data
+    filtered_data = [card for card in all_data if card.get('type') == card_type.lower()]
 
-        if st.session_state.flipped:
-            st.markdown(f"<h3 style='text-align: center;'>{card['english']}</h3>", unsafe_allow_html=True)
-        
-        st.markdown("<br>", unsafe_allow_html=True)
+    if filtered_data:
+        st.success(f"Successfully loaded {len(filtered_data)} {card_type} flashcards!")
 
-    # Buttons for actions
-    col_btn1, col_btn2 = st.columns(2)
-    with col_btn1:
-        st.button("Flip Card", on_click=flip_card)
-    with col_btn2:
-        st.button("Next Card", on_click=next_card)
+        # Use session state to manage the current card index
+        if 'card_index' not in st.session_state or 'card_type' not in st.session_state or st.session_state.card_type != card_type:
+            st.session_state.card_index = 0
+            st.session_state.card_type = card_type
+            st.session_state.show_translation = False
 
+        # Get the current flashcard from the filtered data
+        current_card = filtered_data[st.session_state.card_index]
+
+        # Display the English side of the flashcard
+        st.header(f"Card {st.session_state.card_index + 1}/{len(filtered_data)}")
+        st.markdown(f"**English:**")
+        st.info(current_card['english'])
+
+        # Button to toggle the translation
+        if st.button("Show/Hide Translation"):
+            st.session_state.show_translation = not st.session_state.show_translation
+
+        # Display the Chinese translation if the toggle is on
+        if st.session_state.show_translation:
+            st.markdown(f"**Chinese Translation:**")
+            st.success(current_card['chinese'])
+
+        # Button to move to the next card
+        if st.button("Next Card"):
+            st.session_state.card_index = (st.session_state.card_index + 1) % len(filtered_data)
+            st.session_state.show_translation = False  # Hide translation for the new card
+            st.rerun()
+
+        # Button to shuffle the cards
+        if st.button("Shuffle Cards"):
+            random.shuffle(filtered_data)
+            st.session_state.card_index = 0
+            st.session_state.show_translation = False
+            st.rerun()
+    else:
+        st.info(f"No {card_type} flashcards found in the data.")
 else:
-    st.info("No items to display for the selected category.")
-
-st.markdown("---")
-st.caption("Powered by Streamlit")
+    st.info("No flashcard data to display. Please check your 'data.json' file.")
