@@ -683,4 +683,184 @@
 "english": "confidence",
 "type": "vocabulary"
 }
+{
+"category": "People: Friendship",
+"chinese": "我们一见如故。",
+"english": "We hit it off right away.",
+"type": "sentence"
+},
+{
+"category": "People: Friendship",
+"chinese": "我们从小就是朋友。",
+"english": "We've been friends since childhood.",
+"type": "sentence"
+},
+{
+"category": "People: Social",
+"chinese": "他很会与人打交道。",
+"english": "He's a people person.",
+"type": "sentence"
+},
+{
+"category": "People: Social",
+"chinese": "他的大多数朋友都很随和，容易相处。",
+"english": "Most of his friends are laid-back and easy to get along with.",
+"type": "sentence"
+},
+{
+"category": "People: Mood",
+"chinese": "他散发着积极而无忧的气质。",
+"english": "He gives off a positive and carefree vibe.",
+"type": "sentence"
+},
+{
+"category": "People: Humor",
+"chinese": "他的幽默感有点另类且机智。",
+"english": "He's got an offbeat, witty sense of humor.",
+"type": "sentence"
+},
+{
+"category": "Places: Calm",
+"chinese": "当我想要清静时，那是我常去的地方。",
+"english": "It's my go-to place when I want some peace and quiet.",
+"type": "sentence"
+},
+{
+"category": "Places: Calm",
+"chinese": "这是一种回归自然、远离大城市喧嚣的好方式。",
+"english": "It's a great way to get back to nature and escape the hustle and bustle of the big city.",
+"type": "sentence"
+},
+{
+"category": "Environment & Nature",
+"chinese": "没有噪音污染；我只听到鸟鸣和蛙叫。",
+"english": "There's no noise pollution; all I can hear are birds chirping and frogs croaking.",
+"type": "sentence"
+},
+{
+"category": "Communication",
+"chinese": "我们常在周五晚上推心置腹地长谈。",
+"english": "We often have a heart-to-heart on Friday nights.",
+"type": "sentence"
+},
+{
+"category": "Leisure",
+"chinese": "我会坐在长椅上，戴上耳机，听一些让人平静的音乐。",
+"english": "I might sit on a bench, put my earphones in, and listen to calming music.",
+"type": "sentence"
+},
+{
+"category": "Skills & Learning",
+"chinese": "最初的几次尝试让人紧张不安。",
+"english": "The first few attempts were nerve-wracking.",
+"type": "sentence"
+},
+{
+"category": "Skills & Learning",
+"chinese": "起初我不太稳，但我坚持了下来。",
+"english": "I felt unsteady at first, but I persevered.",
+"type": "sentence"
+},
+{
+"category": "Skills & Learning",
+"chinese": "我终于克服了对摔倒的恐惧。",
+"english": "I finally overcame my fear of falling.",
+"type": "sentence"
+},
+{
+"category": "Skills & Learning",
+"chinese": "独自骑行是一个令人兴奋的里程碑。",
+"english": "Riding on my own was an exhilarating milestone.",
+"type": "sentence"
+},
+{
+"category": "Skills & Learning",
+"chinese": "花了几周时间我才掌握平衡的技巧。",
+"english": "It took a few weeks to master the art of balancing.",
+"type": "sentence"
+},
+{
+"category": "Reflection",
+"chinese": "这段经历非常有收获。",
+"english": "The experience was very rewarding.",
+"type": "sentence"
+},
+{
+"category": "Media & Entertainment",
+"chinese": "这部剧记录了一群朋友幽默的日常生活。",
+"english": "The series chronicles the humorous daily lives of a group of friends.",
+"type": "sentence"
+},
+{
+"category": "Media & Entertainment",
+"chinese": "该剧以机智的斗嘴和强烈的团队情谊著称。",
+"english": "The show is known for its witty banter and strong camaraderie.",
+"type": "sentence"
+},
+{
+"category": "Leisure",
+"chinese": "忙碌一天后我通过观看它来放松。",
+"english": "I watch it to unwind after a long day.",
+"type": "sentence"
+},
+{
+"category": "Media & Themes",
+"chinese": "其中关于友谊与成长的主题让我产生共鸣。",
+"english": "Its themes of friendship and growing up resonate with me.",
+"type": "sentence"
+},
+{
+"category": "Media & Tone",
+"chinese": "这是一部轻松的剧，充满笑声和温馨时刻。",
+"english": "It is a lighthearted show full of laughter and heartwarming moments.",
+"type": "sentence"
+},
+{
+"category": "Sports & Fitness",
+"chinese": "沙滩排球需要敏捷、沟通与团队合作。",
+"english": "Beach volleyball requires agility, communication, and teamwork.",
+"type": "sentence"
+},
+{
+"category": "Sports & Fitness",
+"chinese": "在松软的沙地上打球是很好的锻炼。",
+"english": "Playing on soft sand is a great workout.",
+"type": "sentence"
+},
+{
+"category": "Scenery",
+"chinese": "热带气候和海景构成了完美的背景。",
+"english": "The tropical climate and ocean view create the perfect backdrop.",
+"type": "sentence"
+},
+{
+"category": "Events",
+"chinese": "气氛如此热烈而有活力，我们便决定加入。",
+"english": "The atmosphere was so energetic and lively that we decided to join in.",
+"type": "sentence"
+},
+{
+"category": "Environment & Action",
+"chinese": "他每个周末都会作为志愿者在河边捡垃圾。",
+"english": "He picks up garbage by the river every weekend as a volunteer.",
+"type": "sentence"
+},
+{
+"category": "Environment & Outcome",
+"chinese": "河流再次变得清澈，可听见鸟鸣与蛙叫。",
+"english": "The river became clean again, with birds chirping and frogs croaking.",
+"type": "sentence"
+},
+{
+"category": "Home: Private Space",
+"chinese": "我的卧室是让我充电放松的私人圣地。",
+"english": "My bedroom is a personal sanctuary where I recharge and unwind.",
+"type": "sentence"
+},
+{
+"category": "Home: Use",
+"chinese": "这里既满足我高效工作的需要，也满足我放松的需要。",
+"english": "It’s a space that caters to both my productive and relaxing needs.",
+"type": "sentence"
+}
 ]
